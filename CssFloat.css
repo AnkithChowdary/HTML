@@ -1,0 +1,25 @@
+.container1{
+  background-color:greenyellow;
+  width: 400px;
+  height:300px ;
+  float: left;
+}
+
+img{
+  float: left;
+  display: inline;
+  width: 40%;
+}
+.container2{
+  background-color:rosybrown;
+  width: 400px;
+  height:300px;
+  float:right;
+  
+}
+footer{
+  clear: both;
+  text-align: center;
+  background: gold;
+  display: block;
+}
