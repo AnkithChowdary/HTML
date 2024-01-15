@@ -1,0 +1,21 @@
+body{
+   background-color:burlywood;
+}
+#First{
+  display: inline;
+  background-color: yellow;
+}
+#Second{
+  display: block;
+  background-color: beige;
+}
+
+#Third{
+  display:inline-block;
+  background-color: blueviolet;
+}
+h1{
+  /* display: flex; */
+  background-color: greenyellow;
+  text-align: center;
+}
