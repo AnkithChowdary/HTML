@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      ---Media Query---
+    </title>
+    <style>
+      body {
+        margin: 0; /* Remove default margin */
+        font-family: Arial, sans-serif; /* Set a default font */
+      }
+
+      .container {
+        text-align: center; /* Center the content */
+      }
+
+      .laptop {
+        display: block;
+        color: white;
+        background-color: green;
+        padding: 20px;
+        margin: 10px;
+      }
+
+      .mobile {
+        display: none;
+        color: white;
+        background-color: orange;
+        padding: 20px;
+        margin: 10px;
+      }
+
+      @media (max-width: 400px) {
+        body {
+          background-color: red;
+        }
+        .laptop {
+          display: none;
+        }
+        .mobile {
+          display: block;
+        }
+      }
+
+      @media (min-width: 401px) and (max-width: 600px) {
+        body {
+          background-color: blueviolet;
+        }
+      }
+
+      @media (min-width: 601px) and (max-width: 900px) {
+        body {
+          background-color: burlywood;
+        }
+      }
+
+      @media (min-width: 901px) and (max-width: 1200px) {
+        body {
+          background-color: black;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="laptop">Laptop mode</h2>
+      <h2 class="mobile">Mobile mode</h2>
+    </div>
+  </body>
+</html>
